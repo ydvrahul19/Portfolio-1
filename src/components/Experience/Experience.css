@@ -1,0 +1,136 @@
+.experience-section {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  background-image: var(--section-background-color);
+  min-height: 100vh;
+}
+
+.experience-section .container {
+  padding-top: 70px;
+  z-index: 1;
+  position: relative;
+}
+
+.experience-card {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+}
+
+.experience-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.experience-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #cd5ff8;
+}
+
+.company-name {
+  color: #b8b8b8;
+  font-weight: 500;
+}
+
+.location-wrapper {
+  display: flex;
+  align-items: center;
+  color: #8a8a8a;
+}
+
+.location-icon {
+  margin-right: 0.5rem;
+}
+
+.experience-description {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+.experience-description li {
+  margin-bottom: 0.5rem;
+  color: #e0e0e0;
+}
+
+.technology-stack {
+  margin-top: 1rem;
+}
+
+.tech-badge {
+  background-color: rgba(29, 2, 39, 0.25) !important;
+  color: #cd5ff8 !important;
+  font-size: 0.8rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  margin: 0.3rem !important;
+  border: 1px solid rgba(176, 32, 233, 0.3) !important;
+}
+
+.tech-badge:hover {
+  transform: translateY(-1px);
+}
+
+/* Timeline customization */
+.vertical-timeline {
+  padding: 0 !important;
+  margin-top: 2rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.vertical-timeline::before {
+  background: rgba(255, 255, 255, 0.1) !important;
+  width: 2px;
+}
+
+.vertical-timeline-element {
+  margin: 2rem 0;
+}
+
+.vertical-timeline-element-content {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  padding: 1rem !important;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px rgba(205, 95, 248, 0.2), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.vertical-timeline-element-date {
+  color: #cd5ff8 !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
+  padding: 0 1rem !important;
+  margin-top: 0.5rem !important;
+}
+
+@media (min-width: 1170px) {
+  .vertical-timeline-element-date {
+    margin-top: 0.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .vertical-timeline-element-date {
+    margin-top: 1rem;
+  }
+  
+  .experience-section {
+    padding-top: 80px;
+  }
+  
+  .experience-section .container {
+    padding-top: 50px;
+  }
+  
+  .vertical-timeline {
+    width: 100%;
+  }
+}
