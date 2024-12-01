@@ -21,6 +21,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={DoctorMy}
+              isBlog={false}
+              title="DoctorMy - Healthcare Appointment Platform"
+              description="DoctorMy is a doctor appointment booking platform designed to simplify the process of finding and scheduling appointments with healthcare professionals. The platform provides an intuitive and user-friendly interface for patients to manage their medical appointments efficiently."
+              ghLink=""
+              demoLink="https://doctormyin.vercel.app/"
+            />
+          </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
