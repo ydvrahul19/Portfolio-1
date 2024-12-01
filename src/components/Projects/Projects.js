@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="DoctorMy - Healthcare Appointment Platform"
               description="DoctorMy is a doctor appointment booking platform designed to simplify the process of finding and scheduling appointments with healthcare professionals. The platform provides an intuitive and user-friendly interface for patients to manage their medical appointments efficiently."
-              ghLink=""
+              ghLink="https://github.com/ydvrahul19/DoctorMy"
               demoLink="https://doctormyin.vercel.app/"
             />
           </Col>
