@@ -8,6 +8,9 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/calculater.jpg";
 import bitsOfCode from "../../Assets/Projects/teams.jpg";
+import DoctorMy from "../../Assets/Projects/DoctorMy.PNG";
+import EmailSequencer from "../../Assets/Projects/EmailSequencer.PNG";
+import InvoiceManager from "../../Assets/Projects/InvoiceManager.PNG";
 
 function Projects() {
   return (
@@ -46,6 +49,28 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={EmailSequencer}
+              isBlog={false}
+              title="Email Sequencer"
+              description="Email Sequencer is a MERN Stack web application that allows users to create and manage automated email sequences using a flowchart interface. This application uses React Flow for visualizing the flowchart, Agenda for email scheduling, and Nodemailer for sending emails."
+              ghLink="https://github.com/ydvrahul19/Email-Sequencer"
+              demoLink="https://frontend-h1v6b8mb6-ydvrahul06s-projects.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={InvoiceManager}
+              isBlog={false}
+              title="Swipe Invoice Manager"
+              description="A modern, intelligent invoice processing system with advanced multi-format data extraction capabilities. Process invoices from PDFs, Excel files, and images with smart data recognition."
+              ghLink="https://github.com/ydvrahul19/Invoice-Manager"
+              demoLink="https://invoice-manager-87b17.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
               title="Microsoft-Teams-Clone"
@@ -63,7 +88,7 @@ function Projects() {
               title="JSON to Form Converter"
               description="It is a website where you paste the JSON and dynamically a form is generated Build with HTML, CSS and React.JS. Main motive of this project was to build logic around different component and learn react in depth."
               // ghLink="https://github.com/ydvrahul19/Editor.io"
-              demoLink="https://warm-stardust-73e9a1.netlify.app/"              
+              demoLink="https://warm-stardust-73e9a1.netlify.app/"　　 　 　 　
             />
           </Col>
 
@@ -98,7 +123,7 @@ function Projects() {
               wonderful. In this site you can update live content into your database. Different route are connected to each other and the request is pulled from
               the database to display the content."
               // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              
+ 　 　 　 　
             />
           </Col>
         </Row>
