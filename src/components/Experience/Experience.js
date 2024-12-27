@@ -13,7 +13,7 @@ function Experience() {
       title: "Junior Full Stack Developer",
       company: "Sparrowhawk System",
       location: "Remote, Pune, India",
-      duration: "April 2023 - May 2024",
+      duration: "July 2023 - Present",
       description: [
         "Integrated TRPC and Prisma into a Next.js environment, enhancing database interactions, reducing query times by 40% and improving overall app performance by 25% through creating and modifying Prisma models.",
         "Architected scalable backend applications with Next.js, improving server response times by 30% and increasing system throughput by 20%, implementing performance optimization best practices.",
