@@ -12,7 +12,7 @@ function AboutCard() {
             from <span className="purple"> Pune, India.</span>
             <br /> I am a recent graduate with an Bachelor of Engineering in Information Technology from Army Institute Of Technology.
             <br />
-            Additionally, I worked at Sparrowhawk System as a software developer.
+            Additionally, I worked at Oriserve as a Associate Software Development Engineer.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
