@@ -75,7 +75,7 @@ function Projects() {
     },
     {
       title: "Microsoft-Teams-Clone",
-      description: "My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown.",
+      description: "A simplified clone of Microsoft Teams built with React, Node.js, and MongoDB. This project features real-time messaging, user authentication, and team management, offering a functional communication platform. It demonstrates full-stack development and the integration of modern technologies to replicate a popular collaboration tool.",
       tech: ["React", "Node.js", "MongoDB"],
       github: "https://github.com/ydvrahul19/ms-teams1/tree/master",
       demo: "https://teams-clone-client.netlify.app/",
@@ -91,7 +91,7 @@ function Projects() {
     },
     {
       title: "Crud-App",
-      description: "Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model.",
+      description: "The project is further enhanced by integrating a CRUD (Create, Read, Update, Delete) application built with React, Node.js, and MongoDB, providing a seamless user interface for managing and interacting with the dataset.",
       tech: ["React", "Node.js", "MongoDB"],
       github: "https://github.com/ydvrahul19/CRUD-APP",
       demo: "https://crud-app-reactjjs.netlify.app/",
@@ -99,7 +99,7 @@ function Projects() {
     },
     {
       title: "React-Calculator-simple",
-      description: "Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention.",
+      description: "This project is a simple yet functional calculator built using React, designed to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator is developed with a clean and user-friendly interface using HTML and CSS, ensuring a smooth user experience. It serves as a great example of building responsive and interactive web applications with React. ",
       tech: ["React", "HTML", "CSS"],
       github: "https://github.com/ydvrahul19/react-calculator-simple",
       demo: "https://reactjs-calculator-simple-app.netlify.app/",
